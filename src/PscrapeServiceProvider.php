@@ -88,3 +88,4 @@ class PscrapeServiceProvider extends ServiceProvider {
     {
         //        $this->app->register('Pscrape\...\...');
     }
+}
