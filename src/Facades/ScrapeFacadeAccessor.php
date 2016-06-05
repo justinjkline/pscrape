@@ -1,10 +1,9 @@
 <?php
 
 namespace Pscrape\Pscrape\Facades;
-
 use Illuminate\Support\Facades\Facade;
 
-class ShortenFacadeAccessor extends Facade
+class ScrapeFacadeAccessor extends Facade
 {
     /**
      * Get the registered name of the component.
