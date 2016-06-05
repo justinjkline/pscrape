@@ -25,3 +25,4 @@ class PscrapeServiceProvider extends ServiceProvider {
             __DIR__.'/Config/pscrape.php' => config_path('pscrape.php'),
         ]);
     }
+    
