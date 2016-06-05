@@ -66,7 +66,7 @@ class PscrapeServiceProvider extends ServiceProvider {
         // Register 'Shorten' Alias, So users don't have to add the Alias to the 'app/config/app.php'
         $this->app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Scrape', 'Pscrape\Pscrape\Facades\ScrapeFacadeAccessor');
+            $loader->alias('Scrape', 'Pscrape\Pscrape\Scrape');
         });
     }
 
